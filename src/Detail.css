@@ -1,0 +1,11 @@
+.hidden{
+    display:none;
+}
+
+.start{
+    opacity:0; /* 안보임 */
+}
+.end{
+    opacity:1; /* 보임 */
+    transition: opacity 0.5s; /* 천천히 보임 */
+}
